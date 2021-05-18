@@ -1,0 +1,14 @@
+test_deploy:
+  stage: deploy
+  script:
+    - echo "Hi! deploy is working."
+
+test_build:
+  stage: build
+  script:
+    - echo "Hi! build is working."
+
+test_test:
+  stage: test
+  script:
+    - echo "Hi! test is working."
