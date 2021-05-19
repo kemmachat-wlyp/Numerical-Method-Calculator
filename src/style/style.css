@@ -1,0 +1,116 @@
+h2 {
+    color: white;
+}
+
+span {
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+.ant-card-head {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.ant-table-tbody>tr>td {
+    border-bottom: 1px solid #e8e8e8;
+    transition: all 0.3s, border 0s;
+    transition-property: all, border;
+    transition-duration: 0.3s, 0s;
+    transition-timing-function: ease, ease;
+    transition-delay: 0s, 0s;
+    text-align: center;
+}
+
+.ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
+.ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
+.ant-table-thead>tr:hover:not(.ant-table-expanded-row)>td,
+.ant-table-tbody>tr:hover:not(.ant-table-expanded-row)>td {
+    background: #63abbd;
+}
+.ant-table-thead > tr > th {
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: bold;
+    text-align: center;
+    background: #fcc44d;
+    border-bottom: 1px solid #e8e8e8;
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item, .ant-menu-dark.ant-menu-inline .ant-menu-submenu-title {
+
+    width: 100%;
+    font-size: 16px;
+
+    
+}
+.ant-menu-dark.ant-menu-inline .ant-menu-item:hover {
+    background-color: black;
+    color: white;
+}
+#inputCard {
+    position: relative;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code, label {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+      monospace;
+  }
+
+  label {
+    font-size: 25px; 
+    margin-top: 12px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold; 
+    color: white;
+  }
+  .headertext {
+    position: absolute;
+    font-weight: bold;
+    font-size: 30px; 
+    
+  }
+  .typewriter {
+    display: inline-block;
+    overflow: hidden;
+    letter-spacing: 1.5px;
+    animation: typingText 3s , blink .75s step-end infinite;
+    white-space: nowrap;
+    border-right: 3px solid white;
+  }
+  
+  @keyframes typingText {
+    from {
+      width: 10%;
+    }
+    to {
+      width: 77%;
+    }
+  }
+  
+  @keyframes blink {
+    from, to { 
+        border-color: transparent;
+    }
+    80% { 
+        border-color: white;
+    }
+  
+  }
+@keyframes sliding_left {
+    from {
+        left: 0px;
+    }
+    to {
+        left: -220px;
+    }
+  
+}

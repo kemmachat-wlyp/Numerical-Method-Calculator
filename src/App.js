@@ -4,7 +4,7 @@ import 'antd/dist/antd.css';
 import { Layout, Menu, Icon } from 'antd';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
-import './style/style.scss'
+import './style/style.css'
 
 //link_pages
 //Integration
