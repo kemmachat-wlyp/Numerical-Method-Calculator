@@ -71,12 +71,12 @@ class Bisec extends Component {
             "Fx : "+ this.state.fx+"    "+
             "XL : "+ this.state.xl+"    "+
             "XR : "+ this.state.xr
-        );
+        ); 
         this.bisection(this.state.xl,this.state.xr)
     }
 
     bisection(xl, xr) {
-        fx = this.state.fx;
+        fx = this.state.fx; 
         var increaseFunction = false;
         var xm = 0;
         var sum = parseFloat(0.000000);
@@ -171,9 +171,9 @@ class Bisec extends Component {
 
                         }}
                     >
-                        <h2 style={{ marginLeft: "40%" }}>f(x)</h2>   <Input size="large" name="fx" style={InputStyle}></Input>
-                        <h2 style={{ marginLeft: "40%" }}>X<sub>L</sub></h2>  <Input size="large" name="xl" style={InputStyle}></Input>
-                        <h2 style={{ marginLeft: "40%" }} >X<sub>R</sub></h2>  <Input size="large" name="xr" style={InputStyle}></Input>
+                        <h2 style={{ marginLeft: "40%" }}>f(x)</h2>   <Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
+                        <h2 style={{ marginLeft: "40%" }}>X<sub>L</sub></h2>  <Input size="large" name="xl" style={InputStyle} value={this.state.xl}></Input>
+                        <h2 style={{ marginLeft: "40%" }} >X<sub>R</sub></h2>  <Input size="large" name="xr" style={InputStyle} value={this.state.xr}></Input>
                         <br /><br />
                         <Button id="submit_button" onClick={
                             () => this.bisection(parseFloat(this.state.xl), parseFloat(this.state.xr))

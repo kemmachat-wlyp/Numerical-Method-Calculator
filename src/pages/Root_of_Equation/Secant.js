@@ -134,9 +134,9 @@ class Secant extends Component {
                             width: 500,
                         }}
                     >
-                        <h2 style={{ marginLeft: "40%" }} >f(x)</h2><Input size="large" name="fx" style={InputStyle}></Input>
-                        <h2 style={{ marginLeft: "40%" }} >X<sub>0</sub></h2><Input size="large" name="x0" style={InputStyle}></Input>
-                        <h2 style={{ marginLeft: "40%" }} >X<sub>1</sub></h2><Input size="large" name="x1" style={InputStyle}></Input>
+                        <h2 style={{ marginLeft: "40%" }} >f(x)</h2><Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
+                        <h2 style={{ marginLeft: "40%" }} >X<sub>0</sub></h2><Input size="large" name="x0" style={InputStyle} value={this.state.x0}></Input>
+                        <h2 style={{ marginLeft: "40%" }} >X<sub>1</sub></h2><Input size="large" name="x1" style={InputStyle} value={this.state.x1}></Input>
                         <br /><br />
                         <Button id="submit_button" onClick= {
                                 ()=>this.secant(parseFloat(this.state.x0), parseFloat(this.state.x1))
