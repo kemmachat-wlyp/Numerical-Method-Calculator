@@ -106,19 +106,6 @@ class App extends Component {
                   <Menu.Item key="menu_secant">Secant Method <Link to="/Secant" /></Menu.Item>
                 </SubMenu>
 
-                <SubMenu
-                  key="sub1"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>Interpolation</span>
-                    </span>
-                  }
-                >
-                  {/*<Menu.Item key="menu_graphical">Graphical <Link to="/Bisection" /></Menu.Item>*/}
-                  <Menu.Item key="Newton_Divide_Difference">Newton_Divide_Difference <Link to="/Newton_Divide_Difference" /> </Menu.Item>
-                </SubMenu>
-
 
               </Menu>
             </Sider>
