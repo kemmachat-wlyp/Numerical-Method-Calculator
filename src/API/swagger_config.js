@@ -12,7 +12,7 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Bisection",
+                "summary": "ตัวอย่างโจทย์เรื่อง Bisection",
                 "responses": {
                     "200": {
                         "description" : "ทำงานสำเร็จ"
@@ -28,7 +28,7 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง False_postion",
+                "summary": "ตัวอย่างโจทย์เรื่อง False_postion",
                 "responses": {
                     "200": {
                         "description" : "ทำงานสำเร็จ"
@@ -44,7 +44,7 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Newton_raphson",
+                "summary": "ตัวอย่างโจทย์เรื่อง Newton_raphson",
                 "responses": {
                     "200": {
                         "description" : "ทำงานสำเร็จ"
@@ -60,7 +60,7 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Bisection",
+                "summary": "ตัวอย่างโจทย์เรื่อง Bisection",
                 "responses": {
                     "200": {
                         "description" : "ทำงานสำเร็จ"
@@ -76,7 +76,7 @@ const config = {
                 "tags":[
                     "API"
                 ],
-                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Secant",
+                "summary": "ตัวอย่างโจทย์เรื่อง Secant",
                 "responses": {
                     "200": {
                         "description" : "ทำงานสำเร็จ"
