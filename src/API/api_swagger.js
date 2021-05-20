@@ -1,0 +1,93 @@
+const config = {
+    "swagger": "2.0",
+    "info": {
+        "description" : "API Document By Swagger. จัดทำหน้านี้ขึ้นเพื่อรวบรวม API ที่ใช้บนเว็บไซต์นี้",
+        "title": "Swagger Numerical Method"
+    },
+    "host": "localhost:3001",
+    
+    "paths":{
+        "/Bisection":{
+            "get":{
+                "tags":[
+                    "API"
+                ],
+                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Bisection",
+                "responses": {
+                    "200": {
+                        "description" : "ทำงานสำเร็จ"
+                    },
+                    "404":{
+                        "description" : "ไม่พบโจทย์"
+                    }
+                }
+            }
+        },
+        "/False_position":{
+            "get":{
+                "tags":[
+                    "API"
+                ],
+                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง False_postion",
+                "responses": {
+                    "200": {
+                        "description" : "ทำงานสำเร็จ"
+                    },
+                    "404":{
+                        "description" : "ไม่พบโจทย์"
+                    }
+                }
+            }
+        },
+        "/Newton_raphson":{
+            "get":{
+                "tags":[
+                    "API"
+                ],
+                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Newton_raphson",
+                "responses": {
+                    "200": {
+                        "description" : "ทำงานสำเร็จ"
+                    },
+                    "404":{
+                        "description" : "ไม่พบโจทย์"
+                    }
+                }
+            }
+        },
+        "/Onepoint":{
+            "get":{
+                "tags":[
+                    "API"
+                ],
+                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Bisection",
+                "responses": {
+                    "200": {
+                        "description" : "ทำงานสำเร็จ"
+                    },
+                    "404":{
+                        "description" : "ไม่พบโจทย์"
+                    }
+                }
+            }
+        },
+        "/Secant":{
+            "get":{
+                "tags":[
+                    "API"
+                ],
+                "summary": "ค้นหาโจทย์ทั้งหมดในเรื่อง Secant",
+                "responses": {
+                    "200": {
+                        "description" : "ทำงานสำเร็จ"
+                    },
+                    "404":{
+                        "description" : "ไม่พบโจทย์"
+                    }
+                }
+            }
+        }
+    }
+}
+
+export { config }

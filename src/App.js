@@ -48,6 +48,8 @@ import Backward_Divided_Differences2 from './pages/Differentiation/Backward_Divi
 import Central_Divided_Differences2 from './pages/Differentiation/Central_Divided_Differences2';
 import Forward_Divided_Differences2 from './pages/Differentiation/Forward_Divided_Differences2';
 
+import Swagger from './API/swagger'
+
 const { Header, Content, Sider } = Layout;
 
 const { SubMenu } = Menu;
@@ -106,6 +108,21 @@ class App extends Component {
                   <Menu.Item key="menu_secant">Secant Method <Link to="/Secant" /></Menu.Item>
                 </SubMenu>
 
+                <SubMenu
+                  key="sub1"
+                  title={
+                    <span>
+                      <Icon type="setting" />
+                      <span>Swagger</span>
+                    </span>
+                  }
+                >
+                  {/*<Menu.Item key="menu_graphical">Graphical <Link to="/Bisection" /></Menu.Item>*/}
+                  <Menu.Item key="menu_swagger"><Link to='/Swagger'>Swagger</Link></Menu.Item>
+                </SubMenu>
+
+                
+
 
               </Menu>
             </Sider>
@@ -152,6 +169,7 @@ class App extends Component {
                 <Route path="/Backward_Divided_Differences2" component={Backward_Divided_Differences2} />
                 <Route path="/Central_Divided_Differences2" component={Central_Divided_Differences2} />
                 <Route path="/Forward_Divided_Differences2" component={Forward_Divided_Differences2} />
+                <Route path='/Swagger' component={Swagger}></Route>
               </Content>
             </Layout>
           </Layout>
