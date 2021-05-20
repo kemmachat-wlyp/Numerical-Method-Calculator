@@ -1,0 +1,13 @@
+
+                <SubMenu
+                  key="sub1"
+                  title={
+                    <span>
+                      <Icon type="setting" />
+                      <span>Interpolation</span>
+                    </span>
+                  }
+                >
+                  {/*<Menu.Item key="menu_graphical">Graphical <Link to="/Bisection" /></Menu.Item>*/}
+                  <Menu.Item key="Newton_Divide_Difference">Newton_Divide_Difference <Link to="/Newton_Divide_Difference" /> </Menu.Item>
+                </SubMenu>
