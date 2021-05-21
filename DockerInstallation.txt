@@ -1,0 +1,6 @@
+docker build -t name .
+docker images 
+docker run --name [createname] -p [port]:[port from docker file] -d [name from build]
+docker ps
+docker commit [idcontainer] [user]/[res]:[tag]
+docker push [user]/[res]:[tag]
