@@ -7,12 +7,10 @@ import axios from 'axios';
 const { Content } = Layout;
 
 const InputStyle = {
-    background: "white",
-    color: "#ffa31a",
+    background: "#ffffff",
+    color: "black   ",
     fontWeight: "bold",
-    fontSize: "24px",
-    textAlign: 'center',
-    marginLeft: "40%",
+    fontSize: "24px"
 };
 var dataInTable = []
 
@@ -158,7 +156,7 @@ class Bisec extends Component {
                 <div
                     onChange={this.handleChange}
                     style={{
-                        padding: '50px',
+                        padding: '30px',
                         background: "#",
                         width: '100%',
                     }}
@@ -171,27 +169,27 @@ class Bisec extends Component {
 
                         }}
                     >
-                        <h2 style={{ marginLeft: "40%" }}>f(x)</h2>   <Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
-                        <h2 style={{ marginLeft: "40%" }}>X<sub>L</sub></h2>  <Input size="large" name="xl" style={InputStyle} value={this.state.xl}></Input>
-                        <h2 style={{ marginLeft: "40%" }} >X<sub>R</sub></h2>  <Input size="large" name="xr" style={InputStyle} value={this.state.xr}></Input>
+                        <h2>f(x)</h2>   <Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
+                        <h2>X<sub>L</sub></h2>  <Input size="large" name="xl" style={InputStyle} value={this.state.xl}></Input>
+                        <h2>X<sub>R</sub></h2>  <Input size="large" name="xr" style={InputStyle} value={this.state.xr}></Input>
                         <br /><br />
                         <Button id="submit_button" onClick={
                             () => this.bisection(parseFloat(this.state.xl), parseFloat(this.state.xr))
                         }
-                            style={{ background: "#ffa31a", color: "black", fontSize: "20px", marginLeft: "40%" }}>Submit <br></br></Button>
+                            style={{ background: "#ffa31a", color: "black", fontSize: "20px"}}>Submit <br></br></Button>
 
                         {/*API  */}
                         <br /><br />
                         <Button id="API" onClick={
                             () => this.API()
                         }
-                            style={{ background: "#ffa31a", color: "black", fontSize: "20px", marginLeft: "40%" }}>API <br></br></Button>
+                            style={{ background: "#ffa31a", color: "black", fontSize: "20px"}}>API <br></br></Button>
                     </div>
 
                     <br /><br />
                     {this.state.showGraph &&
                         <Card
-                            style={{ borderRadius: "20px" }}
+                            style={{ borderRadius: "0px" }}
                         >
                             <LineChart width={730} height={250} data={dataInTable}
                                 margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
@@ -208,7 +206,7 @@ class Bisec extends Component {
                     {this.state.showOutputCard &&
 
                         <Card
-                            style={{ borderRadius: "10px" }}
+                            style={{ borderRadius: "0px" }}
                         >
                             <Table columns={columns} dataSource={dataInTable} bodyStyle={{ fontWeight: "bold", fontSize: "18px", color: "black" }}></Table>
                         </Card>
