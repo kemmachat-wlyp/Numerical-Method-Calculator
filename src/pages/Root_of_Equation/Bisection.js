@@ -163,7 +163,6 @@ class Bisec extends Component {
                 >
                     <div
                         style={{
-                            width: 500,
                             color: "#ffffff",
                             background: "#",
                         }}

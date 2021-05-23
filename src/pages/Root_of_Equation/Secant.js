@@ -129,7 +129,8 @@ class Secant extends Component {
                 >
                      <div
                         style={{
-                            width: 500,
+                            color: "#ffffff",
+                            background: "#",
                         }}
                     >
                         <h2>f(x)</h2><Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
