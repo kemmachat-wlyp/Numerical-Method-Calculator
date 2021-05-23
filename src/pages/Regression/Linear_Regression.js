@@ -27,7 +27,6 @@ var table = [
         key: "y"
     }
 ];
-var schedule = []
 var x, y, tableinput, answer
 
 class LinearRegression extends Component {
