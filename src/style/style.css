@@ -24,6 +24,10 @@ span {
     text-align: center;
 }
 
+.ant-card-bordered {
+  border: 1px solid #000C17;
+}
+
 .ant-table-thead>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
 .ant-table-tbody>tr.ant-table-row-hover:not(.ant-table-expanded-row)>td,
 .ant-table-thead>tr:hover:not(.ant-table-expanded-row)>td,

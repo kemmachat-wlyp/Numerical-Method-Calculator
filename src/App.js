@@ -113,99 +113,15 @@ class App extends Component {
                   title={
                     <span>
                       <Icon type="setting" />
-                      <span>!_Linear Algebra</span>
+                      <span>Linear Algebra</span>
                     </span>
                   }
-                >
-                  <Menu.Item key="menu_cramer">♣ Cramer's Rule <Link to="/cramer" /> </Menu.Item>
-                  <Menu.Item key="menu_gauss">♣ Cholesky <Link to="/Cholesky" /> </Menu.Item>
-                  <Menu.Item key="menu_jordan">♣ Gauss Jordan Method<Link to="/Gauss_Jordan_Method" /> </Menu.Item>
-                  <Menu.Item key="menu_Conjugate_Gradient">♣ Conjugate_Gradient<Link to="/Conjugate_Gradient" /> </Menu.Item>
-                  <Menu.Item key="menu_seidel">♣ Gauss_seidel<Link to="/Gauss_seidel" /> </Menu.Item>
-                  <Menu.Item key="menu_Jacobi">♣ Jacobi<Link to="/Jacobi" /> </Menu.Item>
-                  <Menu.Item key="menu_Lu">♣ Lu <Link to="/Lu" /> </Menu.Item>
-
-                </SubMenu>
-                <SubMenu
-                  key="sub3"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>!_Interpolation</span>
-                    </span>
-                  }
-                >
-                  <Menu.Item key="menu_divide">♣ Newton Divide Difference <Link to="/Newton_Divide_Difference" /></Menu.Item>
-                  <Menu.Item key="menu_lagrange">♣ Lagrange <Link to="/Lagrange" /></Menu.Item>
-                  <Menu.Item key="menu_spline">♣ Spline <Link to="/Spline" /></Menu.Item>
+                >                  
+                  <Menu.Item key="menu_cramer">Cramer's Rule <Link to="/cramer" /> </Menu.Item>
                 </SubMenu>
 
                 <SubMenu
                   key="sub4"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>!_Least Square Error</span>
-                    </span>
-                  }
-                >
-                  <Menu.Item key="menu_linear">♣ Linear Regression <Link to="/Linear_Regression" /></Menu.Item>
-                  <Menu.Item key="menu_poly">♣ Polynomial Regression <Link to="/Polynomial_Regression" /></Menu.Item>
-                  <Menu.Item key="menu_multiple">♣ Multiple Linear Regression <Link to="/Multiple_Linear_Regression" /></Menu.Item>
-                </SubMenu>
-
-                <SubMenu
-                  key="sub5"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>Integration</span>
-                    </span>
-                  }
-                >
-                  <Menu.Item key="menu_compositeTrapzoidal">Composite Trapezoidal Rule <Link to="/Composite_Trapezoidal" /> </Menu.Item>
-                  <Menu.Item key="menu_compositeSimpson">Composite Simpson's Rule <Link to="/Composite_Simpson" /> </Menu.Item>
-
-                  <Menu.Item key="menu_Simpson">Simpson <Link to="/Simpson" /> </Menu.Item>
-                  <Menu.Item key="menu_Trapzoidal">Trapzoidal <Link to="/Trapzoidal" /> </Menu.Item>
-                </SubMenu>
-
-                <SubMenu
-                  key="sub6"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>Differentiation</span>
-                    </span>
-                  }
-                >
-                  <Menu.Item key="menu_forwardh">Forward Divided-Differences <Link to="/Forward_Divided_Differences" /> </Menu.Item>
-                  <Menu.Item key="menu_backwardh">Backward Divided-Differences <Link to="/Backward_Divided_Differences" /> </Menu.Item>
-                  <Menu.Item key="menu_centralh">Central Divided-Differences <Link to="/Central_Divided_Differences" /> </Menu.Item>
-                  
-                  <Menu.Item key="menu_forwardh2">Forward Divided-Differences2 <Link to="/Forward_Divided_Differences2" /> </Menu.Item>
-                  <Menu.Item key="menu_backwardh2">Backward Divided-Differences2 <Link to="/Backward_Divided_Differences2" /> </Menu.Item>
-                  <Menu.Item key="menu_centralh2">Central Divided-Differences2 <Link to="/Central_Divided_Differences2" /> </Menu.Item>
-
-                </SubMenu>
-
-                <SubMenu
-                  key="sub7"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>!_Ordinary Differential Equation</span>
-                    </span>
-                  }
-                >
-                  <Menu.Item key="de_submenu">♣ Forward Divided-Differences <Link to="/Fw_Diff" />  </Menu.Item>
-                  <Menu.Item key="menu_euler">♣ Euler's Method <Link to="/Euler" />  </Menu.Item>
-                  <Menu.Item key="menu_heun">♣ Heun's Method <Link to="/Heun" />  </Menu.Item>
-                  <Menu.Item key="menu_modifier">♣ Modifier Euler's Method <Link to="/Modifier_Euler" />  </Menu.Item>
-                </SubMenu>
-
-                <SubMenu
-                  key="sub8"
                   title={
                     <span>
                       <Icon type="setting" />

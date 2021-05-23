@@ -15,4 +15,3 @@ class Gauss_Jordan_Method extends Component {
     }
 }
 export default Gauss_Jordan_Method;
-

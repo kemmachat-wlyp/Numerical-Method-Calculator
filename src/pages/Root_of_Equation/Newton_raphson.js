@@ -7,11 +7,9 @@ import axios from 'axios';
 const { Content } = Layout;
 const InputStyle = {
     background: "white",
-    color: "#ffa31a",
+    color: "black",
     fontWeight: "bold",
     fontSize: "24px",
-    textAlign: 'center',
-    marginLeft: "40%",
 };
 var dataInTable;
 var fx = " ";
@@ -126,20 +124,20 @@ class Newton_raphson extends Component {
                             width: 500,
                         }}
                     >
-                        <h2 style={{ marginLeft: "40%" }} >f(x)</h2><Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
-                        <h2 style={{ marginLeft: "40%" }} >X<sub>0</sub></h2><Input size="large" name="x0" style={InputStyle} value={this.state.x0}></Input>
+                        <h2>f(x)</h2><Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
+                        <h2>X<sub>0</sub></h2><Input size="large" name="x0" style={InputStyle} value={this.state.x0}></Input>
                         <br /><br />
                         <Button id="submit_button" onClick= {
                                 ()=>this.newton_raphson(parseFloat(this.state.x0))
                             }
-                            style={{ background: "#ffa31a", color: "black", fontSize: "20px", marginLeft: "40%" }}>Submit <br></br></Button>
+                            style={{ background: "#ffa31a", color: "black", fontSize: "20px"}}>Submit <br></br></Button>
 
                         {/*API  */}
                         <br /><br />
                         <Button id="API" onClick={
                             () => this.API()
                         }
-                            style={{ background: "#ffa31a", color: "black", fontSize: "20px", marginLeft: "40%" }}>API <br></br></Button>
+                            style={{ background: "#ffa31a", color: "black", fontSize: "20px" }}>API <br></br></Button>
                     </div>
 
                     <br /><br />

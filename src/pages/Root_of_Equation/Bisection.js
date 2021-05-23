@@ -10,7 +10,7 @@ const InputStyle = {
     background: "#ffffff",
     color: "black   ",
     fontWeight: "bold",
-    fontSize: "24px"
+    fontSize: "24px",
 };
 var dataInTable = []
 
@@ -156,7 +156,7 @@ class Bisec extends Component {
                 <div
                     onChange={this.handleChange}
                     style={{
-                        padding: '30px',
+                        padding: '50px',
                         background: "#",
                         width: '100%',
                     }}
@@ -165,8 +165,7 @@ class Bisec extends Component {
                         style={{
                             width: 500,
                             color: "#ffffff",
-                            background: "#"
-
+                            background: "#",
                         }}
                     >
                         <h2>f(x)</h2>   <Input size="large" name="fx" style={InputStyle} value={this.state.fx}></Input>
