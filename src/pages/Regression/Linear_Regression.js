@@ -41,8 +41,8 @@ class LinearRegression extends Component {
         this.state = {
             Points: 0,
             m: 0,
-            showinput: false, //table
-            showbutton: false, //sub2
+            showinput: false, 
+            showbutton: false,
             showAnswer: false,
         }
         this.handleChange = this.handleChange.bind(this);
@@ -108,15 +108,19 @@ class LinearRegression extends Component {
 
                 if (i===0 && j===0) {
                     Xmatrix[i][j] = n
+                    console.log(Xmatrix[i][j])
                 }
                 else if (i===0 && j===1){
                     Xmatrix[i][j] = this.sumxpow(x, 1)
+                    console.log(Xmatrix[i][j])
                 }
                 else if (i===1 && j===0){
                     Xmatrix[i][j] = this.sumxpow(x, 1)
+                    console.log(Xmatrix[i][j])
                 }
                 else {
                     Xmatrix[i][j] = this.sumxpow(x, 2)
+                    console.log(Xmatrix[i][j])
                 }
             }
             
