@@ -121,18 +121,6 @@ class App extends Component {
                 </SubMenu>
 
                 <SubMenu
-                  key="sub3"
-                  title={
-                    <span>
-                      <Icon type="setting" />
-                      <span>Regression</span>
-                    </span>
-                  }
-                >                  
-                  <Menu.Item key="menu_cramer">Linear Regression<Link to="/Linear_Regression" /> </Menu.Item>
-                </SubMenu>
-
-                <SubMenu
                   key="sub4"
                   title={
                     <span>
