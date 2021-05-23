@@ -2,7 +2,6 @@ import React, { Component } from 'react'
 import {Card, Input, Button, Table} from 'antd';
 import 'antd/dist/antd.css';
 import {  sum,inv,multiply } from 'mathjs';
-import axios from 'axios';
   
 const InputColor = {
     background: "#ffffff",
