@@ -50,7 +50,7 @@ class Cramer extends Component {
             console.log(counter)
             console.log(transformMatrix)
             console.log(Math.round(det(transformMatrix)) / Math.round(det(A)))  
-            answer.push(<h2>X<sub>{counter}</sub>=&nbsp;&nbsp;{Math.round(det(transformMatrix)) / Math.round(det(A))}</h2>)
+            answer.push(<h2>X<sub>{counter}</sub> = {Math.round(det(transformMatrix)) / Math.round(det(A))}</h2>)
             answer.push(<br />)
 
         }
