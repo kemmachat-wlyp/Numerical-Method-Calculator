@@ -44,7 +44,6 @@ class LinearRegression extends Component {
             showinput: false, //table
             showbutton: false, //sub2
             showAnswer: false,
-            showgraph : false
         }
         this.handleChange = this.handleChange.bind(this);
       
