@@ -34,7 +34,8 @@ class Cramer extends Component {
         var counter = 0;
         
         while (counter != this.state.row) {
-            var transformMatrix = JSON.parse(JSON.stringify(A)); //Deep copy
+            console.log(A)
+            var transformMatrix = JSON.parse(JSON.stringify(A));
             console.log(JSON.parse(JSON.stringify(A)))
             for (var i = 0; i < this.state.row; i++) {
                 for (var j = 0; j < this.state.column; j++) {
@@ -73,7 +74,7 @@ class Cramer extends Component {
                     fontSize: "18px",
                     fontWeight: "bold"
                 }}
-                    id={"a" + i + "" + j} key={"a" + i + "" + j} placeholder={"a" + i + "" + j} />)
+                    id={"a" + i + "" + j} placeholder={"a" + i + "" + j} />)
             }
             matrixA.push(<br />)
             matrixB.push(<Input style={{
@@ -86,7 +87,7 @@ class Cramer extends Component {
                 fontSize: "18px",
                 fontWeight: "bold"
             }}
-                id={"b" + i} key={"b" + i} placeholder={"b" + i} />)
+                id={"b" + i} placeholder={"b" + i} />)
         }
 
         this.setState({
